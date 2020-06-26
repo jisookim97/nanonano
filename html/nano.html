@@ -3,12 +3,18 @@
 <head>
     <title>NANO</title>
 <style>
+
+h1 {text-align: center;}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 li {
@@ -30,20 +36,47 @@ li a:hover:not(.active) {
 .active {
   background-color:darkcyan;
 }
+
+h2 {
+  border: 6px dotted gold;
+  border-width: 0.4cm;
+  padding: 7px;
+}
+
+h2, p {
+  margin-left: 150px;
+  margin-right: 400px;   
+}
+
+p {
+  line-height: 1.7;
+}
+
+table {
+  margin-left: 150px;
+  border-style: solid none;
+}
+
+td {
+  text-align: center;
+}
+
 </style>
 </head>
 <body>
 <h1>Nanotechnology</h1>
 <br />
+<br />
 <ul>
-  <li><a class="active" href="https://jisookim97.github.io/nanonano/">홈</a></li>
-  <li><a href="./nano.html">나노</a></li>
+  <li><a href="https://jisookim97.github.io/nanonano/">홈</a></li>
+  <li><a class="active" href="./nano.html">나노</a></li>
   <li><a href="./nanotech.html">나노기술</a></li>
-  <li><a href="#about">나노기술역사</a></li>
-  <li><a href="#about">특징</a></li>
-  <li><a href="#about">특성과 효과</a></li>
-  <li><a href="#about">기대</a></li>
-  <li><a href="#about">우려</a></li>
+  <li><a href="./history.html">나노기술의 역사</a></li>
+  <li><a href="./size.html">나노 크기의 특징</a></li>
+  <li><a href="./effect.html">나노물질의 특성과 효과</a></li>
+  <li><a href="./expect.html">나노기술에 대한 기대</a></li>
+  <li><a href="./worry.html">나노기술에 대한 우려</a></li>
+  <li><a href="./refer.html">참고자료</a></li>
 </ul>
 
 <br />
@@ -53,6 +86,66 @@ li a:hover:not(.active) {
 <p>'나노'의 사전적인 의미는 10억 분의 1을 나타내는데, 이는 고대 그리스에서 난쟁이를
     뜻하는 나노스(nanos)에서 유래한다.
 </p>
+<br />
+<p>1나노미터(nm)는 10억 분의 1미터(m)로 일반적인 박테리아 크기의 1천 분의 1, 머리카락의 
+1만분의 1 정도다. 사람이 맨눈으로 볼 수 있는 가장 작은 물체는 대략 1만 나노미터 정도이므로
+이러한 나노미터의 영역은 나노기술 없이는 쉽게 접근할 수 없는 영역이다. 일반적인 원자의 크기는
+0.2~0.3nm다. 원자 3~4개를 일렬로 배열하면 1nm가 되고, 원자 반지름이 가장 작은 수소의 경우는
+10개가 모이면 1nm가 된다. 나노는 모든 구성원소의 가장 본질적, 근원적 범위를 다루는 학문이다.
+</p>
+<br />
+<br />
+<br />
+<table>
+  <caption><small>각 크기당 표시 기호</small></caption>
+  
+  <tr>
+    <th>단위</th>
+    <th>Peta</th>
+    <th>Tera</th>
+    <th>Giga</th>
+    <th>Mega</th>
+    <th>Kilo</th>
+    <th>Milli</th>
+    <th>micro</th>
+    <th>nano</th>
+    <th>pico</th>
+    <th>femto</th>
+    <th>atto</th>
+  </tr>
+  <tr>
+    <td>크기</td>
+    <td>10<sup>15</sup></td>
+    <td>10<sup>12</sup></td>
+    <td>10<sup>9</sup></td>
+    <td>10<sup>6</sup></td>
+    <td>10<sup>3</sup></td>
+    <td>10<sup>-3</sup></td>
+    <td>10<sup>-6</sup></td>
+    <td>10<sup>-9</sup></td>
+    <td>10<sup>-12</sup></td>
+    <td>10<sup>-15</sup></td>
+    <td>10<sup>-19</sup></td>
+  </tr>
+  <tr>
+    <td>표시</td>
+    <td>P</td>
+    <td>T</td>
+    <td>G</td>
+    <td>M</td>
+    <td>K</td>
+    <td>M</td>
+    <td>&#181;</td>
+    <td>n</td>
+    <td>p</td>
+    <td>f</td>
+    <td>a</td>
+  </tr>
+</table>
+<p><small>nm &#8594; 10<sup>-9</sup>m(10억 분의 1미터)</small></p>
 
+<br />
+<br />
+<br />
 </body>
 </html>
